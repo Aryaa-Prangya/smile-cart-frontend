@@ -57,7 +57,7 @@ const responseInterceptors = () => {
 
 export default function initializeAxios() {
   axios.defaults.baseURL =
-    "https://smile-cart-backend-staging.neetodeployapp.com/";
+    "https://smile-cart-backend-staging.neetodeployapp.net/";
   setHttpHeaders();
   responseInterceptors();
   requestInterceptors();
